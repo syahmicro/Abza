@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ABZAA</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="pre1">Malay</string>
+    <string name="pre2">English</string>
+
+    <string-array name="pre_value">
+        <item>my</item>
+        <item>en</item>
+    </string-array>
+
+    <string-array name="pre_entry">
+        <item>Malay</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="home">
+        <item>Send</item>
+        <item>Quran</item>
+        <item>Stats.</item>
+        <item>Profile</item>
+        <item>Name List</item>
+        <item>Tips and Extras</item>
+        <item>Group</item>
+    </string-array>
+</resources>

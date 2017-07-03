@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/txtgetSaveday"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.14"
+            android:gravity="center_horizontal"
+            android:textColorHint="@color/colorPrimaryDark2"
+            android:visibility="gone"
+            android:text="Your Force Stop Period was set on *"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+        <TextView
+            android:id="@+id/txtfsp"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.14"
+            android:gravity="center_horizontal"
+            android:text="Please Choose Day to Force Stop Period"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown" />
+
+        <!--<DatePicker-->
+            <!--android:layout_width="372dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:endYear="2100"-->
+            <!--android:startYear="1900" >-->
+        <!--</DatePicker>-->
+
+        <Button
+            android:id="@+id/btnsavefsp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="SAVE" />
+
+    </LinearLayout>
+
+</LinearLayout>
